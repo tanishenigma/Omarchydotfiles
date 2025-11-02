@@ -1,0 +1,21 @@
+general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font" }
+bold = { family = "CaskaydiaCove Nerd Font" }
+italic = { family = "CaskaydiaCove Nerd Font" }
+size = 10
+
+[window]
+padding.x = 14
+padding.y = 14
+decorations = "None"
+
+[keyboard]
+bindings = [
+{ key = "Insert", mods = "Shift", action = "Paste" },
+{ key = "Insert", mods = "Control", action = "Copy" }
+]

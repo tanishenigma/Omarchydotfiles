@@ -1,0 +1,48 @@
+/* SCRIPT -  */
+/* nwg-dock-hyprland -i 36 -c "" -s style.css -mb 3 -hd 200 -d */
+/* ------------------------------------- */
+window {
+  /* background: #36364f00; */
+  border-radius: 30px;
+  border-style: none;
+  border-width: 0px;
+  background-color: rgba(255, 255, 255, 0.1);
+  /* backdrop-filter: blur(10px); */
+}
+
+#box {
+  /* Define attributes of the box surrounding icons here */
+  padding: 10px;
+}
+
+#active {
+  /* border-bottom: solid 1px; */
+  /* border-color: rgb(255, 255, 255); */
+  border-radius: 30px;
+}
+
+button,
+image {
+  background: none;
+  border-style: none;
+  box-shadow: none;
+  border-radius: 30px;
+}
+
+button {
+  padding: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #eee;
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  border-radius: 20px;
+}
+
+button:focus {
+  box-shadow: none;
+}
