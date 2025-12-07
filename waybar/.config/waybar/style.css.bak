@@ -7,35 +7,41 @@
   border: none;
   border-radius: 10px;
   min-height: 0;
-  font-family: "CaskaydiaMono Nerd Font";
+  font-family: "CaskaydiaCove Nerd Font";
   font-size: 12px;
 }
 
 .modules-left {
   margin-left: 8px;
   background-color: alpha(@background, 1);
+  font-size: 12px;
 }
 
 .modules-right {
   margin-right: 8px;
   background-color: alpha(@background, 1);
+  font-size: 14px;
 }
 
 #workspaces button {
   all: initial;
   padding: 0 6px;
   margin: 0 1.5px;
+  font-size: 12px;
   min-width: 9px;
 }
 #workspaces button.active {
   all: initial;
+  opacity: 0.5;
   padding: 0 6px;
   margin: 0 1.5px;
   min-width: 5px;
+  font-size: 12px;
 }
 
 #workspaces button.empty {
   opacity: 0.3;
+  font-size: 12px;
 }
 
 #cpu,
@@ -49,7 +55,7 @@
 }
 
 #tray {
-  margin-right: 16px;
+  margin-right: 25px;
 }
 
 #bluetooth {
@@ -67,6 +73,7 @@
 
 tooltip {
   padding: 2px;
+  background-color: alpha(@background, 0.9);
 }
 
 #custom-update {
@@ -77,6 +84,7 @@ tooltip {
   margin-left: 8.75px;
   padding-right: 10px;
   padding-left: 10px;
+  font-size: 12px;
   background-color: alpha(@background, 1);
 }
 
@@ -93,12 +101,12 @@ tooltip {
 #custom-screenrecording-indicator.active {
   color: #ff0000;
 }
-
+/* 
 .audio-slider {
   padding: 0 10px;
-}
+} */
 
-slider {
+/* slider {
   min-width: 120px;
   min-height: 12px;
   border-radius: 6px;
@@ -115,7 +123,7 @@ slider highlight {
   min-height: 12px;
   background-color: #eee;
   border-radius: 6px;
-}
+} */
 
 window#waybar {
   margin-top: 20px;
@@ -126,12 +134,13 @@ window#waybar {
 #custom-cava {
   font-size: 9px;
   margin-right: 10px;
-  font-family: "CaskaydiaMono Nerd Font", monospace;
+  font-family: "CaskaydiaCove Nerd Font";
 }
 
 #custom-spotify {
   margin-right: 10px;
   margin-left: 10px;
+  font-size: 12px;
 }
 
 /* Fully collapse hidden Spotify module so it doesn't occupy space */

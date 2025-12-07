@@ -1,0 +1,17 @@
+{
+  "defaultFontFamily": {
+    "standard": null,
+    "serif": null,
+    "sansSerif": null,
+    "monospace": null
+  },
+  "autoHideMenuBar": false,
+
+  "searchService": [["Search with Google", "https://google.com/search?q=%s"]],
+
+  "keyBinding": {},
+
+  "monocolorEmoji": false,
+  "maxFetchCountOnFileList": 500,
+  "flags": ["disable-gpu"]
+}
